@@ -12,3 +12,4 @@ import cn2digits
 
 cn2digits.transform("两百三十万")
 
+欢迎在本Repo下提issue
