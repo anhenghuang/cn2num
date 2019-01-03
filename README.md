@@ -1,15 +1,20 @@
-### cn2digits.py
+## cn2num
 
-(中文转数字)
+这是一个中文数字(含货币)到阿拉伯数字的python小模块。不依赖于其他的python模块。
 
-这是一个大写的中文数字(货币)到阿拉伯数字的python小模块。不依赖于其他的python模块。
+> 原始版本来自于: [wswuai/cn2num.py](https://github.com/wswuai/cn2num.py)
 
-直接将cn2digits.py 复制到你的工程中即可使用：
+---
 
-例：
+### Installation
 
-import cn2digits
+```shell
+pip install cn2num --user
+```
 
-cn2digits.transform("两百三十万")
+### Usage:
 
-欢迎在本Repo下提issue
+```python
+import cn2num
+cn2num.transform("两百三十万")
+```
